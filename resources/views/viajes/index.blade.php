@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="section" style="margin: 20px">
-        <div class="alert alert-success text-center">
+        <div class="alert alert-primary text-center">
             <h2 class="h2">Lista de Viajes</h2>
         </div>
         <div class="section-body">
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="d-flex justify-content-center mb-4 fixed-bottom">
-            <a href="{{ route('viajes.create') }}" class="btn btn-floating btn-lg btn-warning" style="padding: 10px 16px; margin-right: 10px;"><i class="fas fa-plus"></i></a>
+            <a href="{{ route('viajes.create') }}" class="btn btn-floating btn-lg btn-primary" style="padding: 10px 16px; margin-right: 10px;"><i class="fas fa-plus"></i></a>
         </div>
     </section>
     <script>

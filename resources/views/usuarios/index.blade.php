@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="section" style="margin: 20px">
-        <div class="alert alert-success text-center">
+        <div class="alert alert-warning text-center">
             <h2 class="h2">Usuarios</h2>
         </div>
         <div class="section-body">
