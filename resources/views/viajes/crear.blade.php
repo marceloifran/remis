@@ -67,7 +67,7 @@
                                 </button>
                             </div>
                             <div class="mb-3">
-                                <label for="paradasModal">Paradas:</label>
+                                <label for="paradasModal">Paradas (100$):</label>
                                 <div class="input-group">
                                     <button class="btn btn-success" type="button" onclick="sumarParadas()">
                                         +
@@ -117,6 +117,18 @@
                                     </button>
                                 </div>
                             </div>
+
+                            <div class="mb-3">
+                                <label for="demorasModal">Demoras (100$):</label>
+                                <div class="input-group">
+                                    <button class="btn btn-success" type="button" onclick="sumarDemoras()">
+                                        +
+                                    </button>
+                                    <input type="text" class="form-control input-sm small-input" id="demorasModal" value="0" readonly />
+                                    <button class="btn btn-danger" type="button" onclick="restarDemoras()">
+                                        -
+                                    </button>
+                                </div>
                          
                             
                             <div class="row">
@@ -192,6 +204,7 @@ document.getElementById('hora').value = hora;
             // Si no se puede obtener alguno de los precios, mostrar un mensaje de error
             totalPagarInput.value = "Error: Precio no disponible";
         }
+        
     }
 
     // Llamar a la función para calcular el total a pagar cuando se cambie el lugar de partida o de destino
