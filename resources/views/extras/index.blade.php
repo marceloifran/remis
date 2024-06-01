@@ -2,8 +2,8 @@
 
 @section('content')
     <section class="section" style="margin: 20px">
-        <div class="text-center alert alert-success">
-            <h2 class="h2">zonas</h2>
+        <div class="text-center alert alert-info">
+            <h2 class="h2">Extras</h2>
         </div>
         <div class="section-body">
             <div class="row">
@@ -33,7 +33,7 @@
             </div>
         </div>
         <div class="mb-4 d-flex justify-content-center fixed-bottom">
-            <a href="{{ route('extras.create') }}" class="btn btn-floating btn-lg btn-success" style="padding: 10px 16px; margin-right: 10px;"><i class="fas fa-plus"></i></a>
+            <a href="{{ route('extras.create') }}" class="btn btn-floating btn-lg btn-info" style="padding: 10px 16px; margin-right: 10px;"><i class="fas fa-plus"></i></a>
         </div>
     </section>
 @endsection

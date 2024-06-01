@@ -21,7 +21,7 @@
             @can('ver-zonas')
             <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                 <x-nav-link style="text-decoration: none" :href="route('zonas.index')" :active="request()->routeIs('zonas.index')">
-                    {{ __('Zonas') }}
+                    {{ __('Destinos') }}
                 </x-nav-link>
             </div>
             @endcan
@@ -108,7 +108,7 @@
             @endcan
             @can('ver-zonas')
             <x-responsive-nav-link style="text-decoration: none" :href="route('zonas.index')" :active="request()->routeIs('zonas.index')">
-                {{ __('Zonas') }}
+                {{ __('Destinos') }}
             </x-responsive-nav-link>
             @endcan
             @can('ver-extras')

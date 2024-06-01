@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="section" style="margin: 20px">
-        <div class="section-header alert alert-primary">
+        <div class="section-header alert alert-info">
             <h3 class="text-center page__heading h2">Editar Extra</h3>
         </div>
         <div class="section-body">
@@ -41,7 +41,7 @@
                                     </div>
                                    
                                     <div class="col-xs-12 col-sm-12 col-md-12">
-                                        <button style="margin: 10px" type="submit" class="btn btn-primary">Guardar</button>
+                                        <button style="margin: 10px" type="submit" class="btn btn-info">Guardar</button>
                                     </div>
                                 </div>
                             </form>

@@ -2,8 +2,8 @@
 
 @section('content')
     <section class="section" style="margin: 20px">
-        <div class="section-header alert alert-primary">
-            <h3 class="page__heading h2 text-center">Editar Viaje</h3>
+        <div class="section-header alert alert-success">
+            <h3 class="text-center page__heading h2">Editar Destino</h3>
         </div>
         <div class="section-body">
             <div class="row">
@@ -50,7 +50,7 @@
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-sm-12 col-md-12">
-                                        <button style="margin: 10px" type="submit" class="btn btn-primary">Guardar</button>
+                                        <button style="margin: 10px" type="submit" class="btn btn-success">Guardar</button>
                                     </div>
                                 </div>
                             </form>
