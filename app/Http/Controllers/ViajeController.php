@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\extras;
 use App\Models\User;
 use App\Models\viaje;
 use App\Models\zonas;
@@ -33,8 +34,9 @@ class ViajeController extends Controller
     public function create()
     {
         $zonas = zonas::all();
+        $extras = extras::all();
         $usuarios = User::role('chofer')->get();
-        return view('viajes.crear', compact('zonas', 'usuarios'));
+        return view('viajes.crear', compact('zonas','extras', 'usuarios'));
 
         
     }

@@ -1,11 +1,13 @@
 <?php
 
 use App\Http\Controllers\ChoferController;
+use App\Http\Controllers\ExtrasController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\VehiculoController;
 use App\Http\Controllers\ViajeController;
 use App\Http\Controllers\ZonasController;
+use App\Models\extras;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,6 +34,7 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::resource('usuarios', UserController::class)->middleware('auth');
+    Route::resource('extras', ExtrasController::class)->middleware('auth');
     Route::resource('viajes', ViajeController::class)->middleware('auth');
     Route::resource('zonas', ZonasController::class)->middleware('auth');
 

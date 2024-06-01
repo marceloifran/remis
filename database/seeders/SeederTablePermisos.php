@@ -30,6 +30,10 @@ class SeederTablePermisos extends Seeder
             'crear-zonas',
             'editar-zonas',
             'eliminar-zonas',
+            'ver-extras',
+            'crear-extras',
+            'editar-extras',
+            'eliminar-extras',
 
         ];
         foreach ($permisos as $permiso) {
